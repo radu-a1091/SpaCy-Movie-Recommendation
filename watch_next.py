@@ -32,6 +32,8 @@ def watch_next(watched_description):
         if similarity == max(scores.values()):
             print(f"You should watch {title} next")
 
-watch_next(example)
+user_description = input("Type in the description of a recently watched movie:\n")
+
+watch_next(user_description)
 
 
