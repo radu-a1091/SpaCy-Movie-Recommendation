@@ -1,4 +1,4 @@
-# Next movie recommendation
+# SpaCy Movie Recommendation
 
 ## Description
 This script is a simple recommendation engine that suggests a movie to watch based on a description of a movie that you recently watched. The script utilizes the spaCy library to compute the similarity between the descriptions of the movies you've watched and the movies stored in the `movies.txt` file.
